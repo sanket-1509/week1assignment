@@ -1,0 +1,33 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+  width: 100%;
+  align-items: center;
+}
+.cnt {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.btn {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 1rem;
+  color: white;
+  border: 0cap;
+}
+.inc {
+  background-color: rgb(116, 228, 116);
+}
+.dec {
+  background-color: rgb(246, 66, 66);
+}
+.rst {
+  background-color: rgb(50, 154, 240);
+  height: 2.2rem;
+  color: white;
+  width: 5rem;
+  border-radius: 10px;
+  border: 0cap;
+}

@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header,
+footer {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+footer p{
+    height:8rem;
+}
+
+.aboutPara{
+font-style: italic;
+padding: 1rem;
+background-color: rgb(159, 120, 68);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  align-items: center;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(52, 79, 79);
+  font-size: large;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+a:hover {
+    color: white;
+    background-color: teal;
+    transform: scale(1.2)
+}
+
+main {
+  padding: 20px;
+}
+
+h2{
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.contents{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 600px) {
+  body {
+    background-color: #f0f8ff;
+  }
+
+  header,
+  footer {
+    font-size: 14px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+  }
+
+  .contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+}
+
+label{
+  margin-right: 1rem;
+}
+
+.ipGroup{
+
+  margin: 1rem;
+
+}
+
+.submit{
+  margin-left: 4rem;
+}
+button{
+  /* background-color: rgb(74, 152, 212); */
+  background-color: rgb(43, 123, 235); 
+  margin: 1rem;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+button:hover{
+  transition: all 0.3s ease;
+  transform: scale(1.2)
+}
+.parentform{
+background-color: antiquewhite;
+
+border-radius: 1rem;
+padding: 1rem;
+}
